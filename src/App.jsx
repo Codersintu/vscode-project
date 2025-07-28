@@ -3,7 +3,8 @@ import './App.css'
 import Navbar from './component/Navbar'
 import Home from './Home'
 import Video from './component/Video'
-import Carditem from './Carditem'
+import Carditem from './component/Carditem'
+import Info from './component/Info'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Home/>
     <Video/>
    <Carditem/>
+   <Info/>
     </div>
     </div>
   )
