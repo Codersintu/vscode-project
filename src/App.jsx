@@ -7,16 +7,16 @@ import Home from './Home'
 
 function App() {
   return (
-    <>
+    <div className="">
      <Navbar/>
-    <div className="w-[100vw] flex flex-col justify-center items-center z-0">
+    <div className="w-[100vw] overflow-x-hidden flex flex-col justify-center items-center">
     <Home/>
     <div className="w-[1100px] mt-[80px]">
       <video className='w-[100%]' src={video} autoPlay muted loop playsInline />
     </div>
 
     </div>
-    </>
+    </div>
   )
 }
 

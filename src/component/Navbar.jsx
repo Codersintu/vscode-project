@@ -5,7 +5,7 @@ import searchimg from "../assets/search.png"
 
 function Navbar() {
   return (
-    <div className='w-[100vw] shadow-2xs h-[70px] z-[999] sticky top-0 border-b border-b-gray-300'>
+    <div className='sticky top-0 z-[999] w-[100vw] shadow-2xs h-[70px]  border-b border-b-gray-300'>
         <div className=" h-[100%]  flex justify-around items-center">
             <div className="flex items-center gap-10">
                 <div className="flex items-center gap-4">

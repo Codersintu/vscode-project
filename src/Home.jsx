@@ -1,4 +1,4 @@
-import React from 'react'
+
 import windowimg from "./assets/window.png"
 
 function Home() {
@@ -28,4 +28,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home;
