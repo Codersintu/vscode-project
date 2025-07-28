@@ -2,7 +2,7 @@ import React from 'react'
 
 function Info() {
   return (
-    <div className='w-[1300px] h-[150px] mb-10 mt-[80px] bg-gradient-to-r from-[#d1ecd3] via-[#f7f8ff] to-[#bcc7f9]'>
+    <div className='w-[1300px] h-[150px] mt-[80px] bg-gradient-to-r from-[#d1ecd3] via-[#f7f8ff] to-[#bcc7f9]'>
      <div className="flex justify-around items-center h-[100%]">
         <div className="">
             <h1 className='text-2xl font-semibold'>Use AI features in VS Code for free</h1>

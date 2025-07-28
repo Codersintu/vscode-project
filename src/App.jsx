@@ -5,6 +5,7 @@ import Home from './Home'
 import Video from './component/Video'
 import Carditem from './component/Carditem'
 import Info from './component/Info'
+import InfoItem from './component/InfoItem'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <Video/>
    <Carditem/>
    <Info/>
+   <InfoItem/>
     </div>
     </div>
   )
