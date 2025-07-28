@@ -8,7 +8,7 @@ function App() {
   return (
     <>
      <Navbar/>
-    <div className="w-[100vw] h-[calc(100vh-70px)] flex flex-col justify-center items-center border">
+    <div className="w-[100vw] h-[calc(100vh-70px)] flex flex-col justify-center items-center">
     <Home/>
     </div>
     </>
