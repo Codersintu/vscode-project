@@ -6,6 +6,8 @@ import Video from './component/Video'
 import Carditem from './component/Carditem'
 import Info from './component/Info'
 import InfoItem from './component/InfoItem'
+import Extension from './component/Extension'
+import Language from './component/Language'
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
    <Carditem/>
    <Info/>
    <InfoItem/>
+   <InfoItem/>
+   <Extension/>
+   <Language/>
     </div>
     </div>
   )

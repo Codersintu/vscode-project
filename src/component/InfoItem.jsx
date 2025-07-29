@@ -3,7 +3,7 @@ import gitimg from '../assets/git.png'
 
 function InfoItem() {
   return (
-    <div className="w-[1300px] mt-[70px] mb-8">
+    <div className="w-[1300px] mt-[70px]">
      <div className="flex justify-around items-center">
         <div className="flex-1/4 flex flex-col gap-4">
           <h1 className='text-3xl font-semibold'>Next edit suggestions</h1>
