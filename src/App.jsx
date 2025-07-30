@@ -8,6 +8,8 @@ import Info from './component/Info'
 import InfoItem from './component/InfoItem'
 import Extension from './component/Extension'
 import Language from './component/Language'
+import Feature from './component/Feature'
+import Bottom from './component/Bottom'
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
    <InfoItem/>
    <Extension/>
    <Language/>
+   <Feature/>
+   <Bottom/>
     </div>
     </div>
   )
