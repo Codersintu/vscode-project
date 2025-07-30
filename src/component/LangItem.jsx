@@ -1,7 +1,7 @@
 
 import pyimg from '../assets/py.png'
 import Tyimg from "../assets/Ty.png"
-import javaimg from "../assets/java.png"
+// import javaimg from "../assets/java.png"
 import cimg from "../assets/c++.png"
 import cdimg from "../assets/dc.png"
 import GITimg from "../assets/Git.gif"
@@ -13,7 +13,7 @@ function LangItem() {
   return (
     <>
     <div className="flex justify-center items-center gap-5">
-        <img className='w-[25px]' src={javaimg} alt="" />
+        <img className='w-[25px]' src={Tyimg} alt="" />
         <p className=' font-semibold'>Javascript</p>
     </div>
     <div className="flex justify-center items-center gap-5">
@@ -49,7 +49,7 @@ function LangItem() {
         <p className=' font-semibold'>Jupyter</p>
     </div>
     <div className="flex justify-center items-center gap-5">
-        <img className='w-[25px]' src={javaimg} alt="" />
+        <img className='w-[25px]' src={jimg} alt="" />
         <p className=' font-semibold'>Javascript</p>
     </div>
     <div className="flex justify-center items-center gap-5">
