@@ -1,7 +1,7 @@
 import React from 'react'
 import bimg from "../assets/b.png"
 import ximg from "../assets/x.png"
-import githubimg from "../assets/github.png"
+import GITimg from "../assets/Git.gif"
 import Yimg from "../assets/y.png"
 
 function Bottom() {
@@ -14,7 +14,7 @@ function Bottom() {
                     <img  className='w-[25px] cursor-pointer' src={ximg} alt="" />
                     </a>
                     <a href="https://github.com/Codersintu">
-                    <img className='w-[25px] cursor-pointer' src={githubimg} alt="" />
+                    <img className='w-[25px] cursor-pointer' src={GITimg} alt="" />
                     </a>
                     <a href="https://www.youtube.com/@sintumahto9199">
                     <img className='w-[25px] cursor-pointer' src={Yimg} alt="" /></a>
