@@ -1,4 +1,4 @@
-import React from 'react'
+
 import vsimg from "../assets/vs.png"
 import Tgimg from "../assets/toggle.png"
 import searchimg from "../assets/search.png"

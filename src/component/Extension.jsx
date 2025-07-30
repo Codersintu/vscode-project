@@ -1,5 +1,4 @@
-import React from 'react'
-import pyimg from '../assets/py.png'
+
 import Smallcard from './Smallcard'
 
 function Extension() {

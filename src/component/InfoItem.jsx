@@ -1,4 +1,4 @@
-import React from 'react'
+
 import gitimg from '../assets/git.png'
 
 function InfoItem() {

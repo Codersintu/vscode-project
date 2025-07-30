@@ -1,4 +1,4 @@
-import React from 'react'
+
 import videop from "../assets/video1.mp4"
 function Video() {
   return (

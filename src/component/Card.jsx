@@ -1,4 +1,4 @@
-import React from 'react'
+
 import gptimg from "../assets/gpt.png"
 
 function Card() {
