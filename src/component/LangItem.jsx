@@ -1,7 +1,7 @@
 
 import pyimg from '../assets/py.png'
 import Tyimg from "../assets/Ty.png"
-import javaimg from "../assets/java.png"
+import javaimg from "../assets/javascript.png"
 import cimg from "../assets/c++.png"
 import cdimg from "../assets/dc.png"
 import GITimg from "../assets/Git.gif"
