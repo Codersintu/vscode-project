@@ -13,7 +13,7 @@ import Bottom from './component/Bottom'
 
 function App() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center ">
      <Navbar/>
      <Home/>
     <Video/>

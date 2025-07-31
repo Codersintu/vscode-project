@@ -3,7 +3,7 @@ import windowimg from "./assets/window.png"
 
 function Home() {
   return (
-    <div className="w-full overflow-x-hidden flex justify-center items-center px-4">
+    <div className="w-full overflow-x-hidden flex justify-center items-center">
       <div className="w-full max-w-[600px] flex flex-col justify-center items-center gap-10">
         
         {/* Headings */}
