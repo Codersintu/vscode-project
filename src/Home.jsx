@@ -3,29 +3,39 @@ import windowimg from "./assets/window.png"
 
 function Home() {
   return (
-    <div className=' w-[1100px] h-[100%] flex justify-center items-center '>
-       <div className=" w-[600px] flex flex-col justify-center items-center gap-15">
-        <div className="flex flex-col justify-center items-center gap-6">
-            <h1 className='text-7xl font-bold'>The open source </h1>
-            <h1 className='text-7xl font-bold'>AI code editor</h1>
+    <div className="w-full overflow-x-hidden flex justify-center items-center px-4">
+      <div className="w-full max-w-[600px] flex flex-col justify-center items-center gap-10">
+        
+        {/* Headings */}
+        <div className="flex flex-col justify-center items-center gap-4 text-center">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold">The open source</h1>
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold">AI code editor</h1>
         </div>
-        <div className="w-[350px] h-[140px] gap-4 bg-slate-100 rounded-md flex flex-col justify-center items-center">
-            <div className="flex justify-center items-center w-[90%]">
-            <button className='flex w-[100%] justify-center items-center gap-3 bg-black rounded-2xl pl-5 pr-5 pt-3 pb-3 cursor-pointer font-bold'><img className='invert w-[25px]' src={windowimg} alt="" /> <h1 className='text-white'>Download for Windows</h1></button>
-           </div>
-          <div className="flex justify-center items-center">
-            <a className='underline text-xs font-medium'>web,</a>
-            <a className='underline text-xs mr-1 font-medium'>Insiders edition,</a>
-            <p className='text-xs'>or</p>
-            <a className='underline text-xs ml-1 font-medium'>other platforms</a>
+
+        {/* Download Section */}
+        <div className="w-full max-w-[350px] bg-slate-100 rounded-md flex flex-col justify-center items-center gap-3 px-4 py-5">
+          
+          <div className="w-full">
+            <button className="w-full flex justify-center items-center gap-3 bg-black rounded-2xl px-5 py-3 font-bold">
+              <img className="invert w-6" src={windowimg} alt="windows" />
+              <span className="text-white">Download for Windows</span>
+            </button>
           </div>
-          <div className="">
-            <p className='text-xs'>By using VS Code, you agree to its <a className='underline'>license</a> and <a className='underline'>privacy statement</a></p>
+          
+          <div className="text-xs font-medium flex flex-wrap justify-center items-center gap-1 text-center">
+            <a className="underline">web,</a>
+            <a className="underline">Insiders edition,</a>
+            <span>or</span>
+            <a className="underline">other platforms</a>
           </div>
+
+          <p className="text-xs text-center">
+            By using VS Code, you agree to its <a className="underline">license</a> and <a className="underline">privacy statement</a>
+          </p>
         </div>
-       </div>
+      </div>
     </div>
-  )
+  );
 }
 
 export default Home;

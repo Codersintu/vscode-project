@@ -13,10 +13,9 @@ import Bottom from './component/Bottom'
 
 function App() {
   return (
-    <div className="">
+    <div className="flex flex-col justify-center items-center">
      <Navbar/>
-    <div className="w-[100vw] overflow-x-hidden flex flex-col justify-center items-center">
-    <Home/>
+     <Home/>
     <Video/>
    <Carditem/>
    <Info/>
@@ -26,7 +25,6 @@ function App() {
    <Language/>
    <Feature/>
    <Bottom/>
-    </div>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import LangItem from './LangItem'
 
 function Language() {
   return (
-   <div className="w-[1300px] mt-[70px] mb-10">
+   <div className="w-full mt-[70px] mb-10">
         <div className="flex justify-around items-center">
            <div className="flex-1/4 flex flex-col gap-4">
              <h1 className='text-3xl font-semibold'>Code in any language</h1>
