@@ -6,8 +6,8 @@ import Yimg from "../assets/y.png"
 
 function Bottom() {
   return (
-    <div className='w-[1300px] mt-[80px]'>
-        <div className="flex justify-between ">
+    <div className='w-full max-w-[1300px] mt-[80px] px-4'>
+        <div className="flex justify-between items-center ">
             <div className="flex flex-col gap-3">
                 <div className="flex gap-5">
                     <a href="https://x.com/mahto_sint35616">
